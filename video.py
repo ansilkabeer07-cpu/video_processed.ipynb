@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import glob
+pip install moviepy
 
 # Handling MoviePy version differences (v1.x vs v2.x)
 try:
