@@ -21,7 +21,7 @@ if 'yt_error' in st.session_state;
 
 def cleanup_temp_files():
     """Removes temporary files and resets memory."""
-    files=glob.glob("temp_") = ["output_video.mp4]
+    files=glob.glob("temp_") = ["output_video.mp4"]
     for f in files:
         try:
            os.remove(f)
