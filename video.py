@@ -14,7 +14,7 @@ import yt_dlp
 
 if 'audio_path' not in st.session_state:
     st.session_state['audio_path'] = None
-if 'yt_error' in st.session_state;
+if 'yt_error' in st.session_state:
     pass #Keep it for display logic
 
 # --- 2. DEFINE ALL FUNCTIONS
